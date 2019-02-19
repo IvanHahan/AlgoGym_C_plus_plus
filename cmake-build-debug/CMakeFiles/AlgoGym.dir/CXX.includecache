@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/UnicornKing/CLionProjects/AlgoGym/main.cpp
+iostream
+-
+timetable/timetable.h
+/Users/UnicornKing/CLionProjects/AlgoGym/timetable/timetable.h
+salad/salad.h
+/Users/UnicornKing/CLionProjects/AlgoGym/salad/salad.h
+
+/Users/UnicornKing/CLionProjects/AlgoGym/salad/salad.cpp
+salad.h
+/Users/UnicornKing/CLionProjects/AlgoGym/salad/salad.h
+iostream
+-
+math.h
+/Users/UnicornKing/CLionProjects/AlgoGym/salad/math.h
+
+/Users/UnicornKing/CLionProjects/AlgoGym/salad/salad.h
+
+/Users/UnicornKing/CLionProjects/AlgoGym/timetable/timetable.cpp
+iostream
+-
+cstdio
+-
+vector
+-
+
+/Users/UnicornKing/CLionProjects/AlgoGym/timetable/timetable.h
+
