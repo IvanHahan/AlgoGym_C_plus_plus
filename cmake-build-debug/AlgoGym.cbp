@@ -95,6 +95,12 @@
 		<Unit filename="/Users/UnicornKing/CLionProjects/AlgoGym/timetable/timetable.h">
 			<Option target="AlgoGym"/>
 		</Unit>
+		<Unit filename="/Users/UnicornKing/CLionProjects/AlgoGym/tree_diameter/tree_diameter.cpp">
+			<Option target="AlgoGym"/>
+		</Unit>
+		<Unit filename="/Users/UnicornKing/CLionProjects/AlgoGym/tree_diameter/tree_diameter.h">
+			<Option target="AlgoGym"/>
+		</Unit>
 		<Unit filename="/Users/UnicornKing/CLionProjects/AlgoGym/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

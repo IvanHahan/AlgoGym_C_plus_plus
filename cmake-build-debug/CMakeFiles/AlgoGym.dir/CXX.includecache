@@ -13,6 +13,8 @@ timetable/timetable.h
 /Users/UnicornKing/CLionProjects/AlgoGym/timetable/timetable.h
 salad/salad.h
 /Users/UnicornKing/CLionProjects/AlgoGym/salad/salad.h
+tree_diameter/tree_diameter.h
+/Users/UnicornKing/CLionProjects/AlgoGym/tree_diameter/tree_diameter.h
 
 /Users/UnicornKing/CLionProjects/AlgoGym/salad/salad.cpp
 salad.h
@@ -33,4 +35,16 @@ vector
 -
 
 /Users/UnicornKing/CLionProjects/AlgoGym/timetable/timetable.h
+
+/Users/UnicornKing/CLionProjects/AlgoGym/tree_diameter/tree_diameter.cpp
+tree_diameter.h
+/Users/UnicornKing/CLionProjects/AlgoGym/tree_diameter/tree_diameter.h
+set
+-
+iostream
+-
+vector
+-
+
+/Users/UnicornKing/CLionProjects/AlgoGym/tree_diameter/tree_diameter.h
 

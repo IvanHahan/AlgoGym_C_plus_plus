@@ -204,6 +204,33 @@ timetable/timetable.cpp.s:
 	$(MAKE) -f CMakeFiles/AlgoGym.dir/build.make CMakeFiles/AlgoGym.dir/timetable/timetable.cpp.s
 .PHONY : timetable/timetable.cpp.s
 
+tree_diameter/tree_diameter.o: tree_diameter/tree_diameter.cpp.o
+
+.PHONY : tree_diameter/tree_diameter.o
+
+# target to build an object file
+tree_diameter/tree_diameter.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgoGym.dir/build.make CMakeFiles/AlgoGym.dir/tree_diameter/tree_diameter.cpp.o
+.PHONY : tree_diameter/tree_diameter.cpp.o
+
+tree_diameter/tree_diameter.i: tree_diameter/tree_diameter.cpp.i
+
+.PHONY : tree_diameter/tree_diameter.i
+
+# target to preprocess a source file
+tree_diameter/tree_diameter.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgoGym.dir/build.make CMakeFiles/AlgoGym.dir/tree_diameter/tree_diameter.cpp.i
+.PHONY : tree_diameter/tree_diameter.cpp.i
+
+tree_diameter/tree_diameter.s: tree_diameter/tree_diameter.cpp.s
+
+.PHONY : tree_diameter/tree_diameter.s
+
+# target to generate assembly for a file
+tree_diameter/tree_diameter.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgoGym.dir/build.make CMakeFiles/AlgoGym.dir/tree_diameter/tree_diameter.cpp.s
+.PHONY : tree_diameter/tree_diameter.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +249,9 @@ help:
 	@echo "... timetable/timetable.o"
 	@echo "... timetable/timetable.i"
 	@echo "... timetable/timetable.s"
+	@echo "... tree_diameter/tree_diameter.o"
+	@echo "... tree_diameter/tree_diameter.i"
+	@echo "... tree_diameter/tree_diameter.s"
 .PHONY : help
 
 

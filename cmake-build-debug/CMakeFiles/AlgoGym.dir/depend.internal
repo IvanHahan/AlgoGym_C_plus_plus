@@ -5,8 +5,12 @@ CMakeFiles/AlgoGym.dir/main.cpp.o
  /Users/UnicornKing/CLionProjects/AlgoGym/main.cpp
  /Users/UnicornKing/CLionProjects/AlgoGym/salad/salad.h
  /Users/UnicornKing/CLionProjects/AlgoGym/timetable/timetable.h
+ /Users/UnicornKing/CLionProjects/AlgoGym/tree_diameter/tree_diameter.h
 CMakeFiles/AlgoGym.dir/salad/salad.cpp.o
  /Users/UnicornKing/CLionProjects/AlgoGym/salad/salad.cpp
  /Users/UnicornKing/CLionProjects/AlgoGym/salad/salad.h
 CMakeFiles/AlgoGym.dir/timetable/timetable.cpp.o
  /Users/UnicornKing/CLionProjects/AlgoGym/timetable/timetable.cpp
+CMakeFiles/AlgoGym.dir/tree_diameter/tree_diameter.cpp.o
+ /Users/UnicornKing/CLionProjects/AlgoGym/tree_diameter/tree_diameter.cpp
+ /Users/UnicornKing/CLionProjects/AlgoGym/tree_diameter/tree_diameter.h

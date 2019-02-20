@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Users/UnicornKing/CLionProjects/AlgoGym/cmake-build-debug
 CMakeFiles/AlgoGym.dir/all:
 	$(MAKE) -f CMakeFiles/AlgoGym.dir/build.make CMakeFiles/AlgoGym.dir/depend
 	$(MAKE) -f CMakeFiles/AlgoGym.dir/build.make CMakeFiles/AlgoGym.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/UnicornKing/CLionProjects/AlgoGym/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target AlgoGym"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/UnicornKing/CLionProjects/AlgoGym/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target AlgoGym"
 .PHONY : CMakeFiles/AlgoGym.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/AlgoGym.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AlgoGym.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/UnicornKing/CLionProjects/AlgoGym/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/UnicornKing/CLionProjects/AlgoGym/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/AlgoGym.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/UnicornKing/CLionProjects/AlgoGym/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/AlgoGym.dir/rule

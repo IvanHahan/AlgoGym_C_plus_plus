@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/UnicornKing/CLionProjects/AlgoGym/main.cpp" "/Users/UnicornKing/CLionProjects/AlgoGym/cmake-build-debug/CMakeFiles/AlgoGym.dir/main.cpp.o"
   "/Users/UnicornKing/CLionProjects/AlgoGym/salad/salad.cpp" "/Users/UnicornKing/CLionProjects/AlgoGym/cmake-build-debug/CMakeFiles/AlgoGym.dir/salad/salad.cpp.o"
   "/Users/UnicornKing/CLionProjects/AlgoGym/timetable/timetable.cpp" "/Users/UnicornKing/CLionProjects/AlgoGym/cmake-build-debug/CMakeFiles/AlgoGym.dir/timetable/timetable.cpp.o"
+  "/Users/UnicornKing/CLionProjects/AlgoGym/tree_diameter/tree_diameter.cpp" "/Users/UnicornKing/CLionProjects/AlgoGym/cmake-build-debug/CMakeFiles/AlgoGym.dir/tree_diameter/tree_diameter.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
