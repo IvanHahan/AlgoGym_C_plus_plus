@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/AlgoGym.dir/timetable/timetable.cpp.o"
   "CMakeFiles/AlgoGym.dir/salad/salad.cpp.o"
   "CMakeFiles/AlgoGym.dir/tree_diameter/tree_diameter.cpp.o"
+  "CMakeFiles/AlgoGym.dir/field_path/field_path.cpp.o"
   "AlgoGym.pdb"
   "AlgoGym"
 )
