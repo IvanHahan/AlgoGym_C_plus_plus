@@ -6,5 +6,7 @@
 #define ALGOGYM_FIELD_PATH_H
 
 void field_path();
+void sms_count();
+void chess_horse();
 
 #endif //ALGOGYM_FIELD_PATH_H

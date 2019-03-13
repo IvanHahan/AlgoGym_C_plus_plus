@@ -3,9 +3,13 @@
 
 CMakeFiles/AlgoGym.dir/main.cpp.o
  /Users/UnicornKing/CLionProjects/AlgoGym/main.cpp
+ /Users/UnicornKing/CLionProjects/AlgoGym/other_tasks/field_path.h
  /Users/UnicornKing/CLionProjects/AlgoGym/salad/salad.h
  /Users/UnicornKing/CLionProjects/AlgoGym/timetable/timetable.h
  /Users/UnicornKing/CLionProjects/AlgoGym/tree_diameter/tree_diameter.h
+CMakeFiles/AlgoGym.dir/other_tasks/field_path.cpp.o
+ /Users/UnicornKing/CLionProjects/AlgoGym/other_tasks/field_path.cpp
+ /Users/UnicornKing/CLionProjects/AlgoGym/other_tasks/field_path.h
 CMakeFiles/AlgoGym.dir/salad/salad.cpp.o
  /Users/UnicornKing/CLionProjects/AlgoGym/salad/salad.cpp
  /Users/UnicornKing/CLionProjects/AlgoGym/salad/salad.h

@@ -80,13 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/UnicornKing/CLionProjects/AlgoGym/field_path/field_path.cpp">
-			<Option target="AlgoGym"/>
-		</Unit>
-		<Unit filename="/Users/UnicornKing/CLionProjects/AlgoGym/field_path/field_path.h">
-			<Option target="AlgoGym"/>
-		</Unit>
 		<Unit filename="/Users/UnicornKing/CLionProjects/AlgoGym/main.cpp">
+			<Option target="AlgoGym"/>
+		</Unit>
+		<Unit filename="/Users/UnicornKing/CLionProjects/AlgoGym/other_tasks/field_path.cpp">
+			<Option target="AlgoGym"/>
+		</Unit>
+		<Unit filename="/Users/UnicornKing/CLionProjects/AlgoGym/other_tasks/field_path.h">
 			<Option target="AlgoGym"/>
 		</Unit>
 		<Unit filename="/Users/UnicornKing/CLionProjects/AlgoGym/salad/salad.cpp">

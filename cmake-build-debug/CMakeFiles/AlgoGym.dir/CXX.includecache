@@ -13,8 +13,20 @@ timetable/timetable.h
 /Users/UnicornKing/CLionProjects/AlgoGym/timetable/timetable.h
 salad/salad.h
 /Users/UnicornKing/CLionProjects/AlgoGym/salad/salad.h
+other_tasks/field_path.h
+/Users/UnicornKing/CLionProjects/AlgoGym/other_tasks/field_path.h
 tree_diameter/tree_diameter.h
 /Users/UnicornKing/CLionProjects/AlgoGym/tree_diameter/tree_diameter.h
+
+/Users/UnicornKing/CLionProjects/AlgoGym/other_tasks/field_path.cpp
+field_path.h
+/Users/UnicornKing/CLionProjects/AlgoGym/other_tasks/field_path.h
+iostream
+-
+random
+-
+
+/Users/UnicornKing/CLionProjects/AlgoGym/other_tasks/field_path.h
 
 /Users/UnicornKing/CLionProjects/AlgoGym/salad/salad.cpp
 salad.h

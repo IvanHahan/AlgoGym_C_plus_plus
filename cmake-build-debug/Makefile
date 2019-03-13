@@ -123,33 +123,6 @@ AlgoGym/fast:
 	$(MAKE) -f CMakeFiles/AlgoGym.dir/build.make CMakeFiles/AlgoGym.dir/build
 .PHONY : AlgoGym/fast
 
-field_path/field_path.o: field_path/field_path.cpp.o
-
-.PHONY : field_path/field_path.o
-
-# target to build an object file
-field_path/field_path.cpp.o:
-	$(MAKE) -f CMakeFiles/AlgoGym.dir/build.make CMakeFiles/AlgoGym.dir/field_path/field_path.cpp.o
-.PHONY : field_path/field_path.cpp.o
-
-field_path/field_path.i: field_path/field_path.cpp.i
-
-.PHONY : field_path/field_path.i
-
-# target to preprocess a source file
-field_path/field_path.cpp.i:
-	$(MAKE) -f CMakeFiles/AlgoGym.dir/build.make CMakeFiles/AlgoGym.dir/field_path/field_path.cpp.i
-.PHONY : field_path/field_path.cpp.i
-
-field_path/field_path.s: field_path/field_path.cpp.s
-
-.PHONY : field_path/field_path.s
-
-# target to generate assembly for a file
-field_path/field_path.cpp.s:
-	$(MAKE) -f CMakeFiles/AlgoGym.dir/build.make CMakeFiles/AlgoGym.dir/field_path/field_path.cpp.s
-.PHONY : field_path/field_path.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -176,6 +149,33 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles/AlgoGym.dir/build.make CMakeFiles/AlgoGym.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+other_tasks/field_path.o: other_tasks/field_path.cpp.o
+
+.PHONY : other_tasks/field_path.o
+
+# target to build an object file
+other_tasks/field_path.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgoGym.dir/build.make CMakeFiles/AlgoGym.dir/other_tasks/field_path.cpp.o
+.PHONY : other_tasks/field_path.cpp.o
+
+other_tasks/field_path.i: other_tasks/field_path.cpp.i
+
+.PHONY : other_tasks/field_path.i
+
+# target to preprocess a source file
+other_tasks/field_path.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgoGym.dir/build.make CMakeFiles/AlgoGym.dir/other_tasks/field_path.cpp.i
+.PHONY : other_tasks/field_path.cpp.i
+
+other_tasks/field_path.s: other_tasks/field_path.cpp.s
+
+.PHONY : other_tasks/field_path.s
+
+# target to generate assembly for a file
+other_tasks/field_path.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgoGym.dir/build.make CMakeFiles/AlgoGym.dir/other_tasks/field_path.cpp.s
+.PHONY : other_tasks/field_path.cpp.s
 
 salad/salad.o: salad/salad.cpp.o
 
@@ -267,12 +267,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... AlgoGym"
-	@echo "... field_path/field_path.o"
-	@echo "... field_path/field_path.i"
-	@echo "... field_path/field_path.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... other_tasks/field_path.o"
+	@echo "... other_tasks/field_path.i"
+	@echo "... other_tasks/field_path.s"
 	@echo "... salad/salad.o"
 	@echo "... salad/salad.i"
 	@echo "... salad/salad.s"
