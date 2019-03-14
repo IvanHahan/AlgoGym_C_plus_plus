@@ -56,7 +56,7 @@ void timetable() {
     for (int i=0;i<k;i++) {
         dp[0][i] = mins[0][i];
     }
-    dp_sizes[0] = sizes[0] + 1;
+    dp_sizes[0] = sizes[0];
 
     for (int i=1;i<n;i++) {
         int dp_size = 0;
@@ -74,11 +74,11 @@ void timetable() {
             if (has_size) {
                 dp[i][j] = min_dp;
                 dp_size++;
-//                std::cout << dp[i][j] << " ";
+                std::cout << dp[i][j] << " ";
             }
         }
         dp_sizes[i] = dp_size;
-//        std::cout<<std::endl;
+        std::cout<<std::endl;
     }
 
     std::cout<<dp[n-1][k];

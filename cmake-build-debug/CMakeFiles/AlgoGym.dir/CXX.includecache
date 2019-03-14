@@ -41,9 +41,9 @@ math.h
 /Users/UnicornKing/CLionProjects/AlgoGym/timetable/timetable.cpp
 iostream
 -
-cstdio
+cstdlib
 -
-vector
+stdio.h
 -
 
 /Users/UnicornKing/CLionProjects/AlgoGym/timetable/timetable.h
