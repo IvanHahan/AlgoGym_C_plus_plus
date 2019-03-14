@@ -8,5 +8,6 @@
 void field_path();
 void sms_count();
 void chess_horse();
+void pretty_patterns();
 
 #endif //ALGOGYM_FIELD_PATH_H

@@ -5,7 +5,7 @@
 #include "tree_diameter/tree_diameter.h"
 
 int main() {
-    chess_horse();
+    timetable();
     return 0;
 }
 

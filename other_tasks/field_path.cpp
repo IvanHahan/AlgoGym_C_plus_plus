@@ -97,3 +97,54 @@ void chess_horse() {
 void jagged_sequence() {
 
 }
+
+// PRETTY PATTERNS
+
+void pretty_patterns() {
+    int n, m;
+    std::cin>>n>>m;
+    int p[100][100];
+    auto p_total = long(pow(2, n));
+
+    memset(p, 0, sizeof(p));
+
+    for (long i=0; i<p_total; i++) {
+        long tn = i;
+        int j = 0;
+        while (tn > 0) {
+            p[i][j] = int(tn % 2);
+            tn = tn / 2;
+            j++;
+        }
+    }
+
+    int dp[100][100];
+
+    memset(dp, 0, sizeof(dp));
+
+    for (int i=0;i<p_total;i++) {
+        dp[0][i] = 1;
+    }
+
+    for (int i=1;i<m;i++) {
+        for (int j=0;j<p_total;j++) {
+            for (int k=0;k<p_total;k++) {
+                bool can = true;
+                for (int z=1; z<n;z++) {
+                    if (p[j][z-1] == p[k][z-1] && p[j][z] == p[k][z] && p[j][z] == p[j][z-1]) {
+                        can = false;
+                        break;
+                    }
+                }
+                if (can)
+                    dp[i][j] += dp[i-1][j];
+            }
+        }
+    }
+
+    int sum = 0;
+    for (int i=0; i<p_total;i++)
+        sum += dp[m-1][i];
+
+    std::cout<<sum;
+}
